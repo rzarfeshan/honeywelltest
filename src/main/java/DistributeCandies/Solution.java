@@ -50,7 +50,10 @@ public class Solution {
 		if (candies > num_student) {
 			candies = candies % num_student;
 			if (candies == 0)
-				return num_student;
+				if (id != 1)
+					return id - 1;
+				else
+					return num_student;
 		}
 
 		while (candies != 0) {

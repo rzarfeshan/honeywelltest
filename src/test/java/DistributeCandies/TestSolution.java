@@ -23,6 +23,7 @@ public class TestSolution {
 		Assert.assertEquals(5, Solution.distributeCandies(5,2,4));
 		
 		Assert.assertEquals(2, Solution.distributeCandies(5,4,4));
+		Assert.assertEquals(3, Solution.distributeCandies(5,10,4));
 	}
 
 }
