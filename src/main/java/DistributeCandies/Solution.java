@@ -51,7 +51,7 @@ public class Solution {
 			candies = candies % num_student;
 			if (candies == 0)
 				if (id != 1)
-					return id - 1;
+					 return id - 1;
 				else
 					return num_student;
 		}
